@@ -1,8 +1,7 @@
-const plantSchema = require("../Schema/UserPlantData");
+const Plant = require("../Schema/UserPlantData");
+const User = require("../Schema/Login");
 exports.uploaddata = async (req, res) => {
   try {
-    let { filename } = req.file;
-    filename = "new";
     const {
       userId,
       plantname,
@@ -10,46 +9,48 @@ exports.uploaddata = async (req, res) => {
       commonDescription,
       medicinaltips,
       referenceHyperlink,
+      ImageUrl,
     } = req.body;
-
-    const plant = new plantSchema({
+    const dataprocess = await User.findById(userId);
+    if (!dataprocess) {
+      res.status(400).json({ message: "Invalid Login Failed" });
+    }
+    const plant = new Plant({
       userId,
       plantname,
       commonname,
       commonDescription,
       medicinaltips,
       referenceHyperlink,
-      ThreeD_Model: {
-        filename,
-        contentType: "application/octet-stream",
-        data: req.file.buffer,
-      },
+      ImageUrl,
+      BookMarks: "",
     });
-    console.log(filename);
+
     await plant.save();
-    res.status(200).json({ message: "File uploaded successfully!" });
+    res.status(200).json({ message: "Plant data uploaded successfully!" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
+exports.getdata = async (req, res) => {
+  const { userId } = req.query; // Get userId from query parameters
 
-exports. getPlantData = async (req, res) => {
+  if (!userId) {
+    return res.status(400).json({ message: "Oops, Invalid Data Passed" });
+  }
+
   try {
-    const plantId = req.params.id; 
+    const plants = await Plant.find({ userId: userId });
 
-    const plant = await plantSchema.findById(plantId);
-
-    if (!plant) {
-      return res.status(404).json({ error: "Plant not found" });
+    if (plants.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No plants found for this userId" });
     }
-    const modelBuffer = plant.ThreeD_Model.data;
 
-   
-    res.json({
-      filename: plant.ThreeD_Model.filename,
-      data: modelBuffer.toString("base64"), 
-    });
+    res.status(200).json({ message: "Data Fetched", PlantData: plants });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error(error);
+    res.status(500).json({ message: "Internal Server Error" });
   }
 };

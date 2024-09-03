@@ -2,8 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const router = require("./Router/initialrouter");
+const cors = require("cors");
+
 dotenv.config();
 const app = express();
+app.use(cors());
+
 app.use(express.json());
 const mongodbUrl = process.env.MONGODB_URL;
 mongoose

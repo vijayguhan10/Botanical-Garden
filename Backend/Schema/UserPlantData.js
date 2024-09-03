@@ -1,15 +1,4 @@
 const mongoose = require("mongoose");
-const threeDModelSchema = new mongoose.Schema({
-  filename: { type: String, require: true },
-  contentType: {
-    type: String,
-    default: "application/octet-stream",
-  },
-  data: {
-    type: Buffer,
-    required: true,
-  },
-});
 
 const plantSchema = new mongoose.Schema({
   userId: {
@@ -36,7 +25,10 @@ const plantSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  ThreeD_Model: threeDModelSchema,
+  ImageUrl: {
+    type: String,
+    required: true,
+  },
   BookMarks: {
     type: String,
   },

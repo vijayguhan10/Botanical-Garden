@@ -1,0 +1,68 @@
+{
+  "Plants": [
+    {
+      "plantname": "Valarai",
+      "BotanicalName": "Centella asiatica",
+      "commonDescription": "Vallarai keerai or Gotu Kola (in Hindi) is a herb you must include in your child's diet. - It has the ability to relieve tension and anxiety",
+      "medicinaltips": "Vallarai keerai is a panacea for human health, offering marvellous benefits for maintaining brain functions, heart health, lung, liver and kidney operations. ",
+      "referenceHyperlink": "https://100vayasu.com/product/vallarai-keerai/",
+      "ImageUrl": "https://www.herbalplantslive.com/wp-content/uploads/2021/08/vallarai-e1692325145983.jpg"
+    },
+    {
+      "plantname": "Sendi kodi",
+      "BotanicalName": "Aristolochia indica",
+      "commonDescription": "Sendi kodi appears to be a Malayalam word, which is a language spoken in the Indian state of Kerala. The term sendi kodi ",
+      "medicinaltips": "Sendi kodi leaves are dried and ground into very fine powder. It has a good aroma as the natural plant. It is 100% pure, natural and has no side effects. It can be used to cure the following disease",
+      "referenceHyperlink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.indiamart.com%2Fproddetail%2Fsenthil-kodi-23736360048.html&psig=AOvVaw2OB7L9_wHMX7ompcsUEwe_&ust=1725280416032000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCODDg8XgoYgDFQAAAAAdAAAAABAE",
+      "ImageUrl": "https://5.imimg.com/data5/SELLER/Default/2021/7/SR/EG/BK/131464458/seenthil-kodi-dry-500x500.jpg"
+    },
+    {
+      "plantname": "Bramhi",
+      "BotanicalName": "Bacopa monnieri",
+      "commonDescription": "Bacopa monnieri (often called brahmi) is a botanical frequently used in Ayurvedic medicine",
+      "medicinaltips": "Brahmi is known to have anticancer, antidiabetic, mitigating, antimicrobial and anti- oxidant and memory-enhancing properties.",
+      "referenceHyperlink": "https://ijapr.in/index.php/ijapr/article/download/1917/1360/#:~:text=various%20therapeutic%20medicines.-,Brahmi%20is%20known%20to%20have%20anticancer%2C%20antidiabetic%2C%20mitigating%2C%20antimicrobial,treatment%20of%20vast%20human%20disorders.",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4QrLZHzF_AvmbUZHeFMaD4El4L5QioSVea71wgrybkNGyb0yUVqkJz_8B1KPudOn7_4A&usqp=CAU"
+    },
+    {
+      "plantname": "Alovera",
+      "BotanicalName": "Aloe vera",
+      "commonDescription": "Aloe is a cactus-like plant that grows in hot, dry climates. It is cultivated in subtropical regions around the world, including the southern border areas ",
+      "medicinaltips": "Aloe vera gel can be applied topically to treat acne, burns, radiation-induced skin toxicity, and other skin conditions. ",
+      "referenceHyperlink": "https://www.researchgate.net/figure/Aloe-Vera-plant-Scientific-name-Aloe-barbadensis-miller-Family-Liliaceae-11_fig1_368225870",
+      "ImageUrl": "https://farmseller.in/wp-content/uploads/2022/01/Alovera-plant.jpeg"
+    },
+    {
+      "plantname": "Nithya Kalyani",
+      "BotanicalName": "Catharanthus roseus",
+      "commonDescription": "Catharanthus is a genus of flowering plants in the family Apocynaceae. Like the genus Vinca, they are known commonly as periwinkles.",
+      "medicinaltips": "Cancer: The plant is a source of the drugs vincristine and vinblastine, which are used to treat cancer.",
+      "referenceHyperlink": "https://www.onlymyhealth.com/tamil/what-are-the-health-benefits-of-nithyakalyani-20873",
+      "ImageUrl": "https://live.staticflickr.com/7148/6464860799_2df6a651a1_b.jpg"
+    },
+    {
+      "plantname": "Aegle marmelos",
+      "BotanicalName": "bael tree",
+      "commonDescription": "The bael tree is a member of the Rutaceae family and is native to India. It is a deciduous tree that can grow up to 9 meters tall",
+      "medicinaltips": "Antidiabetic, Hypolipidemic, Anti-inflammatory, Antioxidant, Wound healing, Antipyretic potential, Antidiarrheal activity, Diuretic activity, and Ulcer healing. ",
+      "referenceHyperlink": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/aegle-marmelos",
+      "ImageUrl": "https://www.dabur.com/Medical%20Plants/Bael.jpg"
+    },
+    {
+      "plantname": "Ipomoea turpethum",
+      "BotanicalName": "Operculina turpethum",
+      "commonDescription": "Operculina turpethum (syn. Ipomoea turpethum) is a species of plant in the morning glory family, known commonly as turpeth, fue vao, and St. Thomas lidpod.",
+      "medicinaltips": "Ailments like fever, edema, asthma, hemorrhoids, dyspepsia, flatulence, gout, paralysis, abdominal tumors, and worm infestation",
+      "referenceHyperlink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10050689/#:~:text=Since%20ancient%20times%2C%20Ipomoea%20turpethum,plant%20parts%2C%20especially%20the%20roots.",
+      "ImageUrl": "https://i.etsystatic.com/11646676/r/il/1a4404/1673331080/il_570xN.1673331080_6arx.jpg"
+    },
+    {
+      "plantname": "Cassia auriculata",
+      "BotanicalName": "Senna auriculata",
+      "commonDescription": "Asthma sufferers use the leaves and roots of S. auriculata. Patients with diabetes, congestion, and bladder infections use the tea Kalpa",
+      "medicinaltips": " The root is used in decoctions against fevers, diabetes, diseases of urinary system and constipation.",
+      "referenceHyperlink": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/senna-auriculata#:~:text=Asthma%20sufferers%20use%20the%20leaves,auriculata%2C%20to%20relieve%20their%20symptoms.",
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HjhfnSCfK0OhABY8tWcxdGiQImuwYes2Gg&s"
+    }
+  ]
+}
